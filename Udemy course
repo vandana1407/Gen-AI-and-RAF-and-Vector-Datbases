@@ -123,4 +123,15 @@ Meta AI: Focuses on open access with models like Llama, designed for users with 
 Anthropic: Prioritizes AI safety, ensuring model outputs align with human ethics, exemplified by their Claude model.
 Hugging Face: A critical player in the open-source community, noted for the Transformers library, enabling developers to share and fine-tune models.
 Google Vertex AI: Provides models like Palm and BERT for building and deploying AI solutions.
-Gemini 1.5 has one of the largest context window - which is equivalent to 2 hours as compared to gpt and claude.
+Gemini 1.5 has one of the largest context window - which is equivalent to 2 hours of video, 22 hours of audio, 60k lines of code and 1.4 M words - as compared to gpt and claude.
+
+
+SLMs - 
+Overview of Small Language Models: These models are highlighted for their efficiency and reduced parameters compared to larger counterparts, making them suitable for a variety of applications.
+OpenAI GPT 4o mini: With 4 billion parameters and an 8000 token context window, it's known for its speed and affordability, 
+ideal for customer support and text summarization, while still possessing robust reasoning and multimodal capabilities.
+Llama 3.2 mini: This open-source model has 3.2 billion parameters and a 4000 token context window, making it perfect for research and smaller projects, 
+especially in resource-limited environments like mobile applications.
+Google's Gemma: Featuring 5 billion parameters and an 8000 token context window, this model excels in natural language understanding
+Microsoft's Phi-3: This model, with 3.5 billion parameters and a 6000 token context window, is tailored for enterprise use, 
+enabling seamless integration with Microsoft Azure for real-time responses in business settings
