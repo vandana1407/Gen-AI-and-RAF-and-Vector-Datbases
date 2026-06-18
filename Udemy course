@@ -151,4 +151,4 @@ Models type -
 multiumodal - for image to text, video text to text etc
 computer vision - for object detection , image classification and segmentation.
 NLP - Natural Language processing - this handles - text based tasks - translation or summarization, txt classificationa nd question answering
-Audio models - models that process sound, speech to text and audio claiification.
+Audio models - models that process sound, speech to text and audio classification.
