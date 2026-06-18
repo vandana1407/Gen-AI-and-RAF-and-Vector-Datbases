@@ -135,3 +135,10 @@ especially in resource-limited environments like mobile applications.
 Google's Gemma: Featuring 5 billion parameters and an 8000 token context window, this model excels in natural language understanding
 Microsoft's Phi-3: This model, with 3.5 billion parameters and a 6000 token context window, is tailored for enterprise use, 
 enabling seamless integration with Microsoft Azure for real-time responses in business settings
+
+Propriety models - 
+privately developed by organizations and are not available for public modificationor redistribution
+accessed via apis or cloud services, not modifiable
+e.g. open ai's GPT-4, Google Gemini, Anthorpic Claude.
+Open source Models - free, full control, community support but infrastructure costs
+Proprietary models - easy to use, high performance, but costly and limited control.
