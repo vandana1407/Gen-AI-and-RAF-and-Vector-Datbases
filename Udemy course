@@ -91,3 +91,23 @@ LLMs settings -
 
 Function calling in LLMs - 
 LLMs can trigger extrenal functions or apis.
+Extending LLM Capabilities: Function calling allows LLMs to interact with external systems and access real-time data, greatly expanding their functionality.
+Examples include getting the current weather, booking appointments through a calendar API, and performing calculations.
+When given a prompt, the LLM identifies what the user wants and selects the appropriate function to execute, retrieving and returning the required data.
+
+Structured output in LLms - 
+structured output in large language models (LLMs). Structured output refers to generating responses in specific formats, such as JSON or XML, which is vital for 
+applications needing machine readability and easy integration into systems like APIs and automation workflows.
+Importance of Structured Outputs: They ensure consistent and reliable responses, especially for tasks requiring parsing or processing.
+Ho wdoes structured output work? - we have to give prompt like this  -provide weather information for new york in the following json format: {"city": "cityname" , "temp": "value, "consitions":"desc"}
+
+what are small language model? (SLMs)
+Small Language Models (SLMs), highlighting their compactness and efficiency compared to larger language models. . they are smaller, more efficinet, scaled down versions of LLMs.
+SLMs may lack the extensive capabilities of models like ChatGPT-4 or Gemini, they still perform essential tasks such as text generation and language understanding with significantly fewer parameters.
+they are faster, cheaper and more effiecint to run (lesser computational requirements, optimized for speed and lower resource consumption).
+Comparison with Large Models: For example, ChatGPT-4 has 170 trillion parameters, while SLMs like Google Gamma and Llama 3 operate with just a few billion parameters.
+Practical Use Cases:
+Edge Computing: SLMs are suitable for smart devices and IoT applications due to their low resource requirements.
+Mobile Applications: They enhance real-time interactions in mobile apps, providing a better user experience.
+Customer Support: SLMs efficiently manage predefined queries in chatbots without the need for complex large models.
+Offline Applications: They can power personal assistants on smartphones, ensuring privacy by processing data locally.
