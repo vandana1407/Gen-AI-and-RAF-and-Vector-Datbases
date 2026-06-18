@@ -2,3 +2,34 @@ Udemy Course - https://www.udemy.com/course/generative-ai-architectures-with-llm
 
 building E-shop customer support application that integrates AI
 This project mirrors a real world enterprise use case where businesses need to automate support operations and deliver efficient customer service.
+
+Artificial intelligence has gone through a remarkable evolution, and we will cover four key steps inthis evolution.
+The first one is artificial intelligence.
+Second one is machine learning.
+Third one is deep learning and finally generative AI.
+
+1. Artificial Intelligence - In the early days of AI, the focus was on rule based systems, and these systems often called expert
+systems, could follow a set of pre-programmed rules in order to perform a specific task, like playing
+chess or diagnosing simple medical conditions.
+And the challenge was these systems couldn't learn.
+They had to be explicitly programmed for every scenario they might encounter, which limited their adaptability.
+
+2. Machine learning, or we can say ML is a major leap forward in AI development instead of being programmed
+to follow a fixed set of rules.
+ML models learn from data.
+They automatically identify patterns, make predictions, and even they add up over time.
+There are three major types of machine learning.
+The first one is supervised learning. - Training the model on labeled data, such as predicting house prices based on historical data.
+The second one is unsupervised learning, identifying patterns in unlabeled data like grouping customers.based on behavior.
+And finally, reinforcement learning, where the model learns by interacting with an environment, improving
+through trial and error. Learning from feedback as seen in game planning. AI agents that improve by winning or losing.
+self-driving cars using machine learning models.
+Machine learning is like teaching a dog to fetch.Instead of showing the dog step by step instructions, you throw the ball repeatedly and through repetition
+and rewards, the dog learns what you want it to do.
+
+3. Deep Learning  -Instead of manually selecting features, deep learning models use neural networks to automatically learn these features from raw data.
+these networks consist of multiple layers of interconnected neurons and each layer learning to extract increasingly complex features from the data.
+And with deep learning, we have been able to tackle much more complex tasks things like recognizing faces in a crowd or understanding the spoken language.
+types - CNNs are great for image recognition (convolutional neural networks,)
+recurrent neural networks - RNNs, particularly LSTMs, are used for sequential data like time series or text (GPT based on that)
+
