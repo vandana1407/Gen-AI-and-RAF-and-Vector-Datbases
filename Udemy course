@@ -152,3 +152,9 @@ multiumodal - for image to text, video text to text etc
 computer vision - for object detection , image classification and segmentation.
 NLP - Natural Language processing - this handles - text based tasks - translation or summarization, txt classificationa nd question answering
 Audio models - models that process sound, speech to text and audio classification.
+
+Model Cards: Each model comes with a detailed model card that includes information about its architecture, 
+training data, and potential use cases, helping users determine if a model meets their project needs.
+Datasets: The platform provides a wide range of curated datasets for training and fine-tuning models. Users can search and filter datasets by task, 
+ensuring they find the right data for specific applications.
+Hugging Face Spaces: These interactive applications allow users to showcase and test models in real time, using tools like Gradio or Streamlit.
