@@ -61,5 +61,7 @@ they are Large - breath wise based on lots of data, and also parameter wise - ba
 Transformers process all workds in a sentence simultaneously.LLMs understand context, they understand context based on multiple sentences too.
 LLms break sentence to tokens - tokens could be workds of phrases.
 
-one of features of LM is text generation - so based on current text predict next word in sentence.
+one of features of LLM is text generation - so based on current text predict next word in sentence.
 LLms uses training model- self supervised learning - learns by predicting next word in sentence.
+models withn more parameters can generate human like responses, but that inc computation cost.
+
