@@ -54,3 +54,8 @@ Types of Generative AI models
 1. Gans - Generative Adversial Network  - popular for image creation - consits of 2 neural netowrks - generator and discriminator
 2. Variational Auto encoders - VAEs - new variations from latent space, e.g used to reconstruct damaged MRIs.
 3. Tranformer Models - GPT - has self attention machnism - to find out most imporatnt part of setence. helpful in generating coherent text e,g gpt 4.
+
+LLMs  -Large language models - based on lage variety of text - website, reaserch paoers etc
+they are Large - breath wise based on lots of data, and also parameter wise - based on trillions of parameters
+
+Transformers process all workds in a sentence simultaneously.
