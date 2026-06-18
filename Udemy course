@@ -173,3 +173,21 @@ LLM comparison
 latency - take more time to produce detailed responses
 context window - can handle larger context window - allows handling larger conversation swithout losing context
 response depth - produce richer and more comprehensive answers
+
+Ho wto write code for integrating with open API SDK
+it provides python library - 
+Capabilities of Chat Completion Endpoint: The lecture highlights how users can send prompts and receive responses from models like GPT-4 and GPT-4 Mini. 
+It emphasizes the endpoint's usefulness for applications such as chatbots and multi-turn conversations.
+OpenAI SDK Libraries: The presenter refers to the OpenAI documentation, showcasing quick start guides and code examples for different programming languages, 
+including Python, Node.js, and .NET, facilitating integration of text generation into applications.
+to create  new application to use LLM - This starts with obtaining an API key, storing it in environment variables, and installing the necessary OpenAI packages.
+then create your application to intercat with open ai sdk
+we create a chatClinet - using the api key which is in installed in env variables
+and the use this chat clinet to make a call to open ai sdk call
+and when we get response in completion variable, we get the content inside variable and write to console.
+we cabn also use CompleteChatStreamingAsync api - of sdk , if we want to show response on console as it is getting fetched.
+
+Ollama
+it is a platform to run LLMs and SLMs directly on local machines.
+offers private , secure AI solutions without requiring cloud
+als provides low latency and control over AI models.
