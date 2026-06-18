@@ -167,3 +167,9 @@ With-Code Interaction (API Keys): This option requires coding skills and is suit
 It involves obtaining API keys from providers like OpenAI or Hugging Face, allowing for programmatic requests to the models. This approach offers deeper 
 customization, more control over outputs, and the ability to scale across various applications. For instance, developers can create customer support 
 chatbots or incorporate text summarization features.
+
+
+LLM comparison
+latency - take more time to produce detailed responses
+context window - can handle larger context window - allows handling larger conversation swithout losing context
+response depth - produce richer and more comprehensive answers
