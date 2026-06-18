@@ -192,3 +192,13 @@ it is a platform to run LLMs and SLMs directly on local machines.
 offers private , secure AI solutions without requiring cloud
 als provides low latency and control over AI models. so we dont need to depend on internet for integrating with AI.
 variety of models present - llama, gemma, qwen, phi, mistral
+
+
+commands in windows power shell
+ollama -h   help command
+serve   stat ollama
+create   create a model from model file
+show   shows info abt a model
+
+With growing demand, we need to add AI powered features in enterprise apps. Businesses need to modernize.
+Integrate ai powered features like summarization, classification, semantic search and q&a chat.
