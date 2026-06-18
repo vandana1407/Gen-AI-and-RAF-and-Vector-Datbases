@@ -65,3 +65,12 @@ one of features of LLM is text generation - so based on current text predict nex
 LLms uses training model- self supervised learning - learns by predicting next word in sentence.
 models withn more parameters can generate human like responses, but that inc computation cost.
 
+LLMs based on tokens and tokenisation
+LLms can beused for - 
+1. text genartion - mails, blogs etc
+2. Summarization
+3. Transation - transating to diff languages.
+4. Questin answering
+5. chat completion and conversation AI - customer service chatbots.
+
+
