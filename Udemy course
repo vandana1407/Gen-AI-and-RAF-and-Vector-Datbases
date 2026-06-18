@@ -82,5 +82,12 @@ Limitations of LLMs
 4. High computations resources needed  -traininga nd running LLMs require high computaional power.expensive.
 
 LLMs settings - 
-1. temperature, max tokens, sto sequences, top p, frequency penalty and Presence penalty
+1. temperature - if set temperature to low, it reduces randomness, so more deterministic answer, good for maths and factual accuracy.higher temperature make smodel creative and diverse in response.
+2. max tokens  - maximum number of tokens model can genearte. lower tokens   -helpful to get shorter response, like summarizing, large token helpful when writing articles.
+3. stop sequences - tell llm to stop genearting text once they are encountered. 
+4. top p - if value 1 means considered all possible tokens while generating response, but if 0.5 - it means considered only 50 % of tokens while genarting responses.
+5. frequency penalty - discourages repeted words
+6. Presence penalty - Encourages the introduction of new topics.
 
+Function calling in LLMs - 
+LLMs can trigger extrenal functions or apis.
