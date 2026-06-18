@@ -107,7 +107,20 @@ SLMs may lack the extensive capabilities of models like ChatGPT-4 or Gemini, the
 they are faster, cheaper and more effiecint to run (lesser computational requirements, optimized for speed and lower resource consumption).
 Comparison with Large Models: For example, ChatGPT-4 has 170 trillion parameters, while SLMs like Google Gamma and Llama 3 operate with just a few billion parameters.
 Practical Use Cases:
-Edge Computing: SLMs are suitable for smart devices and IoT applications due to their low resource requirements.
+Edge Computing/IoT devices: SLMs are suitable for smart devices and IoT applications due to their low resource requirements.
 Mobile Applications: They enhance real-time interactions in mobile apps, providing a better user experience.
 Customer Support: SLMs efficiently manage predefined queries in chatbots without the need for complex large models.
-Offline Applications: They can power personal assistants on smartphones, ensuring privacy by processing data locally.
+Offline Applications: They can power personal assistants on smartphones, ensuring privacy by processing data locally. they can still provide recommneadyioons, without connecting to cloud.
+
+
+LLM Providers:
+Definition of LLM Providers: Organizations that create and provide access to powerful AI models via cloud services or APIs.
+e.g.Anthropic, Google, OpenAI etc
+Notable LLM Providers:
+OpenAI: Known for models like GPT-3 and GPT-4, offering capabilities in natural language generation and code generation. 
+Accessible through Azure due to its partnership with Microsoft.
+Meta AI: Focuses on open access with models like Llama, designed for users with limited computational resources.
+Anthropic: Prioritizes AI safety, ensuring model outputs align with human ethics, exemplified by their Claude model.
+Hugging Face: A critical player in the open-source community, noted for the Transformers library, enabling developers to share and fine-tune models.
+Google Vertex AI: Provides models like Palm and BERT for building and deploying AI solutions.
+Gemini 1.5 has one of the largest context window - which is equivalent to 2 hours as compared to gpt and claude.
