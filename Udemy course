@@ -33,3 +33,22 @@ And with deep learning, we have been able to tackle much more complex tasks thin
 types - CNNs are great for image recognition (convolutional neural networks,)
 recurrent neural networks - RNNs, particularly LSTMs, are used for sequential data like time series or text (GPT based on that)
 
+4. generative AI - creates new content.it s like a artist painting from imagination based on styles and techniques from past work.
+The core idea behind generative AI is that it learns the patterns and structures in a data set, and
+once it understands those patterns, it can generate entirely new data that fits within those learned patterns.
+Shopify's recommendation system uses traditional AI to analyze your music preferences and recommendsongs.
+But generative AI could use to create an entire new song just for you based on your preferences.
+For example, in marketing, generative AI can write product descriptions or design unique advertisements
+Generative AI relies on four main components.
+training data 
+learning algorithms, 
+output generation and 
+feedback loop.
+But importantly, generative AI doesn't just memorize the examples, it's given.
+Instead, it generalizes and learns the underlying principles and patterns that define the data.
+Neural networks play a key role in this place.
+These networks consist of layers of neurons that process data in stages.
+
+
+Types of Generative AI models
+1. Gans - Generative Adversial Network  -
