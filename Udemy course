@@ -51,4 +51,6 @@ These networks consist of layers of neurons that process data in stages.
 
 
 Types of Generative AI models
-1. Gans - Generative Adversial Network  -
+1. Gans - Generative Adversial Network  - popular for image creation - consits of 2 neural netowrks - generator and discriminator
+2. Variational Auto encoders - VAEs
+3. Tranformer Models - GPT - 
