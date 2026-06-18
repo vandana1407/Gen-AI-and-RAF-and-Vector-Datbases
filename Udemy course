@@ -190,4 +190,5 @@ we cabn also use CompleteChatStreamingAsync api - of sdk , if we want to show re
 Ollama
 it is a platform to run LLMs and SLMs directly on local machines.
 offers private , secure AI solutions without requiring cloud
-als provides low latency and control over AI models.
+als provides low latency and control over AI models. so we dont need to depend on internet for integrating with AI.
+variety of models present - llama, gemma, qwen, phi, mistral
