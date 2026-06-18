@@ -58,4 +58,5 @@ Types of Generative AI models
 LLMs  -Large language models - based on lage variety of text - website, reaserch paoers etc
 they are Large - breath wise based on lots of data, and also parameter wise - based on trillions of parameters
 
-Transformers process all workds in a sentence simultaneously.
+Transformers process all workds in a sentence simultaneously.LLMs understand context, they understand context based on multiple sentences too.
+LLms break sentence to tokens - tokens could be workds of phrases.
