@@ -142,3 +142,8 @@ accessed via apis or cloud services, not modifiable
 e.g. open ai's GPT-4, Google Gemini, Anthorpic Claude.
 Open source Models - free, full control, community support but infrastructure costs
 Proprietary models - easy to use, high performance, but costly and limited control.
+
+Hugging Face - 
+it is Github of machine Learning Models
+developers, researchers etc access and share machine learning models , datasets , tools for AI projects
+
