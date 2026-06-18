@@ -158,3 +158,12 @@ training data, and potential use cases, helping users determine if a model meets
 Datasets: The platform provides a wide range of curated datasets for training and fine-tuning models. Users can search and filter datasets by task, 
 ensuring they find the right data for specific applications.
 Hugging Face Spaces: These interactive applications allow users to showcase and test models in real time, using tools like Gradio or Streamlit.
+
+LLM Interaction Types:
+No-code or with Code
+No-Code Interaction (ChatUI): This method allows users to engage with LLMs through easy-to-use chat interfaces, like OpenAI's ChatGPT. It's accessible to individuals without technical 
+skills and is great for getting quick responses, creative ideas, or simple code snippets. However, it does have limitations in terms of customization.
+With-Code Interaction (API Keys): This option requires coding skills and is suited for developers wanting to integrate LLMs into custom applications. 
+It involves obtaining API keys from providers like OpenAI or Hugging Face, allowing for programmatic requests to the models. This approach offers deeper 
+customization, more control over outputs, and the ability to scale across various applications. For instance, developers can create customer support 
+chatbots or incorporate text summarization features.
