@@ -75,4 +75,12 @@ LLms can beused for -
 6. Sentiment analysis -if sentenc is positive-neutral or negative.
 7. Code generation
 
+Limitations of LLMs
+1. false infor or hallucination
+2. lack of latest info - so not good for news reporting, stock market etc
+3. limited context handling - lose track of context in long running conversations
+4. High computations resources needed  -traininga nd running LLMs require high computaional power.expensive.
+
+LLMs settings - 
+1. temperature, max tokens, sto sequences, top p, frequency penalty and Presence penalty
 
