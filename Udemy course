@@ -368,3 +368,8 @@ Challenges fo Fine Tuning -
 that data, but poorly on unseen or real world task. One way to prevent overfitting is by using the regularization techniques 
 like dropout or weight decay.
 2.  another challenges could be fine tuning is the quality and the quantity of the data Fine tuning requires high quality data set.
+3. Fine tuning can be resource incentive, especially if you are working with large models and datasets.Depending on the complexity 
+of the task and the model, fine tuning can take hours or even days.
+
+In order to address these challenges, consider using cloud based platforms like Google Cloud, AWS,
+or Azure that offer pre-configured environments for fine tuning.
