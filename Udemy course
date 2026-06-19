@@ -341,3 +341,6 @@ typically much smaller than the massive dataset used to pre-trained models. fine
 which are used to train the model on specific tasks.
 3. next step is training the model on new data - We should upload data for training and create the fine tuning job and then run that job.
 This training process updates the model's internal parameters, its weights and biases, so it can adapt to the new context.
+4. evaluation and optimization step - It is essential to evaluate its performance on the target tasks, so we test the fine tuned model using
+the validation datasets.
+5. Deloy step - The last step we can come to the deploying and maintenance when using the fine tuning model in your app.
