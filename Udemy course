@@ -286,6 +286,7 @@ numeric vectors that capture semantic meanings. This transformation allows the s
 between words. For example, a query about 'climate change' could retrieve documents discussing 'global warming' due 
 to their semantic similarity.
 Embedding models are used to transform text into numerical vectors(embeddings).
+embeddings help to understand the semantic meaning .e.g. car and automobile have similar embeddings.
 Vector Stores: The lecture discusses specialized databases known as vector stores, which are designed to manage
 and store high-dimensional vectors. These stores facilitate efficient searches based on semantic similarity rather than 
 just keyword matching, allowing for more relevant results.
