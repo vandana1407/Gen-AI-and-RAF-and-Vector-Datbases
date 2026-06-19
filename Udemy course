@@ -323,3 +323,7 @@ dataIngestor.IngestDatAsync -helps to upload pdf files that we have kept ina  fo
 it basically converst documents to vectors and store to our local vetor store.
 when we give prompt - answer comes with citations
 citations are link to specific section inside document that has the knowledge for our question. so they point to relevant section in the document.
+
+SearchAysnc method - is used to search from vector databse embeddings and provide back data.
+
+Fine tuning - 
