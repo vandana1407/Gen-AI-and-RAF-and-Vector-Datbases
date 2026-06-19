@@ -207,6 +207,7 @@ LLM augmentation flow -
 has several steps - 
 training
 fine tuning
-RAG
+RAG - retrieval augmented generation - this step is essential when llm does not has all the information it needs.lacks certain knowledge which was not part of its training.
+so by using RAG , LLM can retrieve info from external sources like databases, documnets or apis.
 prompt engineering -  well designed prompts help model to understand user intent better , leading to better quality - techniques used are
 zero shot, five shot and one shot prompting.
