@@ -326,4 +326,8 @@ citations are link to specific section inside document that has the knowledge fo
 
 SearchAysnc method - is used to search from vector databse embeddings and provide back data.
 
-Fine tuning - 
+Fine tuning - fine tuning is the process of adopting a pre-trained
+model to perform better on specific, specialized tasks.So the model is already trained on large amounts of data, but needs to be optimized 
+for domain specific knowledge. That means retrain an existing model with new data in order to improve performance on a specific task
+with domain specific knowledge. Rather than trying to retrain a model from scratch, which would take enormous time and resources, fine tuning is a more
+efficient way to tailor an existing model for a narrow domain.
