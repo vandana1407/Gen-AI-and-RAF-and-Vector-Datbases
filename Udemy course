@@ -202,3 +202,11 @@ show   shows info abt a model
 
 With growing demand, we need to add AI powered features in enterprise apps. Businesses need to modernize.
 Integrate ai powered features like summarization, classification, semantic search and q&a chat.
+
+LLM augmentation flow - 
+has several steps - 
+training
+fine tuning
+RAG
+prompt engineering -  well designed prompts help model to understand user intent better , leading to better quality - techniques used are
+zero shot, five shot and one shot prompting.
