@@ -302,3 +302,24 @@ Ranking and Filtering: After retrieving a subset of documents, the ranking proce
 the most pertinent information is prioritized. Filtering further improves results by removing irrelevant or inconsistent data.
 Context-Rich Prompt Creation: The lecture concludes by discussing how to create a context-rich query prompt, incorporating 
 relevant documents with the original query, which enhances understanding of the user's intent and aids the generation phase.
+
+the challenges and key considerations of using Retrieval-Augmented Generation (RAG) systems. Here are the main points:
+Complexity of RAG Architecture: The lecture highlights that RAG systems are more intricate than standard language models due to the 
+requirement for real-time data retrieval from external sources. This demands careful coordination among components like retrieval systems,
+knowledge bases, and generators.
+Integration of External Knowledge Sources: Utilizing APIs, databases, and document repositories introduces significant complexity, 
+particularly when managing multiple distributed data sources.
+Accuracy vs. Performance Trade-off: Maintaining high accuracy while ensuring efficient performance is a central challenge.
+Issues such as slow retrieval times and poor integrations can lead to delays, adversely affecting real-time applications like customer support.
+Cost and Infrastructure Challenges: Building a robust RAG system requires substantial computational resources, leading to high initial
+and ongoing costs. Larger context windows increase token counts, further impacting expenses, especially with token-based models like GPT.
+Data Quality and Relevance: The effectiveness of RAG system responses heavily depends on the quality of retrieved data. Unreliable 
+or outdated information can compromise outputs, making it crucial to ensure that the retrieved data is relevant and up-to-date, 
+particularly in fields such as healthcare and legal research.
+
+
+Code  - 
+dataIngestor.IngestDatAsync -helps to upload pdf files that we have kept ina  folder on our pc to be used as documents in ingestion phase.
+it basically converst documents to vectors and store to our local vetor store.
+when we give prompt - answer comes with citations
+citations are link to specific sction inside document that has the knowledge for our question.
