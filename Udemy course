@@ -215,3 +215,32 @@ zero shot, five shot and one shot prompting.
 Also we have 2 types
 1. context optimization
 2. LLM optimization
+
+Prompt Engineering
+prompt - input or instruction we give to LLM
+e.g. it can be as simple as what is the capital of france , and can be as complex as generate a detaile 
+summary of latest scuentific paper on climat chnage
+elements of prompt
+1. intruction or task
+2. context
+3. input data
+4. output format
+Roles in a Prompt:
+System Role: This establishes the model's behavior and context for the entire conversation, 
+such as acting as an expert in cybersecurity.
+User Role: This involves giving specific instructions or questions, like asking about best practices 
+for data protection.
+
+what is prompt engineering - ts role in crafting and refining prompts to improve the quality of responses from models.
+steps for effective prompt engineering,
+Start Simple: Begin with basic prompts to gauge the model's baseline performance without overwhelming it. An example is using a simple prompt like "summarize this article." This helps in understanding how the model interprets instructions.
+Experiment: Try different structures and wordings in your prompts to see how the outputs change. This could involve asking the model to explain versus summarize a topic, or providing additional context to elicit different responses.
+Iterate: Refine and improve your prompts based on the initial results to enhance the clarity and detail in the responses obtained from the model.
+Evaluate: Assess the effectiveness of the prompts by reviewing the quality of the model's outputs. Ensure that the responses align with the goals of your query.
+Templatize: After refining your prompts through iteration, consider developing templates for frequently used prompt structures to streamline your process.
+
+Advanced prompting techniques that enhance the performance of large language models (LLMs) - 
+Zero Shot, One Shot, and Few Shot Prompting: These techniques vary in the amount of context provided, guiding the model's responses accordingly. Zero shot prompts ask for responses without examples, while one shot gives one example, and few shot provides several.
+Chain of Thought Prompting: This encourages the model to articulate reasoning step by step, yielding clearer, more in-depth responses.
+Role-Based and Instruction-Based Prompting: Assigning specific roles to the model influences its response style, while clear directives ensure responses align with user expectations.
+Contextual Prompting: Providing relevant content increases the model's ability to generate appropriate outputs. The lecture aims to equip participants with practical skills to implement these techniques effectively.
