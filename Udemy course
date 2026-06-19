@@ -354,6 +354,9 @@ fine tune the model on specific, narrow tasks like improving customer sentiment 
 3. Low Rank Adaptation - It allows you to fine tune a model efficiently without retraining the entire model.
 In LoRA, small trainable metrics are added to certain layers of the model. Because you are only training the edit matrices, 
 the rest of the model remains unchanged. This significantly reduces the computational resources needed for fine tuning.
-it has a diff version - Quantized LoRA(QLoRA) -  more memory efficient iteration of traditional Laura.
-Laura takes Laura a step further by also quantizing the weights of the Laura adapters, which is a similar matrices to the lower precision.
+it has a diff version - Quantized LoRA(QLoRA) -  more memory efficient iteration of traditional LoRA.
+QLoRA takes Laura a step further by also quantizing the weights of the Laura adapters, which is a similar matrices to the lower precision.
 These further operation reduces the memory footprint and the storage requirements.
+4. Transfer Learning - Transfer learning is about taking the knowledge a model has learned from one domain, like general language
+understanding and transferring it to a different but related domain. Transfer learning is especially useful when you don't 
+have enough labeled data to train a model from scratch in your domain.
