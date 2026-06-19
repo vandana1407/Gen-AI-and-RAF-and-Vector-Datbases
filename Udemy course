@@ -244,3 +244,13 @@ Zero Shot, One Shot, and Few Shot Prompting: These techniques vary in the amount
 Chain of Thought Prompting: This encourages the model to articulate reasoning step by step, yielding clearer, more in-depth responses.
 Role-Based and Instruction-Based Prompting: Assigning specific roles to the model influences its response style, while clear directives ensure responses align with user expectations.
 Contextual Prompting: Providing relevant content increases the model's ability to generate appropriate outputs. The lecture aims to equip participants with practical skills to implement these techniques effectively.
+
+Github Models - 
+Key features discussed include the free tier for prototyping, a user-friendly interface for exploring model capabilities, 
+and reliable access to AI models hosted by GitHub.
+GitHub modules for developers interested in AI, offers a clear pathway for experimentation and integration.
+
+
+RAG - retrieval augmented Generation - 
+It outlines how Rec enhances a model's ability to produce accurate information by integrating external knowledge into its responses. 
+This approach helps overcome thelimitations of a model's pre-trained data by allowing access to real-time information.
