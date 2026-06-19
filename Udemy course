@@ -205,9 +205,13 @@ Integrate ai powered features like summarization, classification, semantic searc
 
 LLM augmentation flow - 
 has several steps - 
-training
-fine tuning
+training - trained model - so final model is optimized and ready for deployment, combines all three below improvements.
+fine tuning - in order for your LLM tyo specialize in specific domain, in this you take a pre tarined LLM and train it in specific domain data set.
 RAG - retrieval augmented generation - this step is essential when llm does not has all the information it needs.lacks certain knowledge which was not part of its training.
 so by using RAG , LLM can retrieve info from external sources like databases, documnets or apis.
 prompt engineering -  well designed prompts help model to understand user intent better , leading to better quality - techniques used are
 zero shot, five shot and one shot prompting.
+
+Also we have 2 types
+1. context optimization
+2. LLM optimization
