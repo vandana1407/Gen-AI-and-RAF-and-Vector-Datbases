@@ -291,3 +291,14 @@ Vector Stores: The lecture discusses specialized databases known as vector store
 and store high-dimensional vectors. These stores facilitate efficient searches based on semantic similarity rather than 
 just keyword matching, allowing for more relevant results.
 
+
+In Retrival Augmentation Phase - 
+User Query Handling: It begins with how the system processes a user query once submitted.
+Vectorization: The lecture emphasizes converting the user query into a vectorized form using an embeddings model, which allows
+efficient comparison with document vectors in a vector database.
+Retrieval Phase: In this phase, the system compares the vectorized query against document vectors using similarity metrics to find 
+the most relevant documents linked to the user's query.
+Ranking and Filtering: After retrieving a subset of documents, the ranking process organizes them based on relevance, ensuring 
+the most pertinent information is prioritized. Filtering further improves results by removing irrelevant or inconsistent data.
+Context-Rich Prompt Creation: The lecture concludes by discussing how to create a context-rich query prompt, incorporating 
+relevant documents with the original query, which enhances understanding of the user's intent and aids the generation phase.
