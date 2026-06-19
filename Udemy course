@@ -333,3 +333,11 @@ with domain specific knowledge. Rather than trying to retrain a model from scrat
 efficient way to tailor an existing model for a narrow domain.
 Advantage - token savings due to shorter prompts, Fewer tokens means less data to process, which directly reduces latency.
 And since most of the language model charts based on the number of tokens processed, reducing token usage can lead to lower API cost.
+How Fine tuning works?
+We will start with pre-trained LM to deploy fine tuned domain specific LM, and we have created five steps to understand how does fine tuning works.
+1. And the first step is pre-trained LM.
+2. So the next step is preparation the fine tuning dataset -  introducing a new dataset that is specific to the domain.This dataset is 
+typically much smaller than the massive dataset used to pre-trained models. fine tuning dataset often includes labeled examples, 
+which are used to train the model on specific tasks.
+3. next step is training the model on new data - We should upload data for training and create the fine tuning job and then run that job.
+This training process updates the model's internal parameters, its weights and biases, so it can adapt to the new context.
