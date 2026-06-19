@@ -333,6 +333,7 @@ with domain specific knowledge. Rather than trying to retrain a model from scrat
 efficient way to tailor an existing model for a narrow domain.
 Advantage - token savings due to shorter prompts, Fewer tokens means less data to process, which directly reduces latency.
 And since most of the language model charts based on the number of tokens processed, reducing token usage can lead to lower API cost.
+
 How Fine tuning works?
 We will start with pre-trained LM to deploy fine tuned domain specific LM, and we have created five steps to understand how does fine tuning works.
 1. And the first step is pre-trained LM.
@@ -344,6 +345,7 @@ This training process updates the model's internal parameters, its weights and b
 4. evaluation and optimization step - It is essential to evaluate its performance on the target tasks, so we test the fine tuned model using
 the validation datasets.
 5. Deloy step - The last step we can come to the deploying and maintenance when using the fine tuning model in your app.
+
 Fine Tuning Methods - 
 1. The first method is fully fine tuning, which involves adjusting all the parameters in the pre-trained
 model to make it highly specialized for your task. In full fine tuning, the entire model's parameters, its weights and biases are updated based on the
@@ -360,3 +362,9 @@ These further operation reduces the memory footprint and the storage requirement
 4. Transfer Learning - Transfer learning is about taking the knowledge a model has learned from one domain, like general language
 understanding and transferring it to a different but related domain. Transfer learning is especially useful when you don't 
 have enough labeled data to train a model from scratch in your domain.
+
+Challenges fo Fine Tuning - 
+1. Overfitting happens when a model becomes too focused on the specific data set used for the fine tuning.It performs well on 
+that data, but poorly on unseen or real world task. One way to prevent overfitting is by using the regularization techniques 
+like dropout or weight decay.
+2.  another challenges could be fine tuning is the quality and the quantity of the data Fine tuning requires high quality data set.
