@@ -266,3 +266,16 @@ It points out the limitations of traditional LLMs, which include having outdated
 (plausible but incorrect information), and lacking access to context-specific knowledge. Because these 
 models are trained on static datasets, they cannot learn new information after training, which can lead to knowledge gaps.
 RAG pulls data from datasources, documents and other external apis.
+HOw Rag Works?
+breaking it down into three essential components: ingestion, retrieval, and generation.
+Ingestion Phase: This phase focuses on collecting and organizing information to build a comprehensive knowledge base.
+It involves gathering data from various sources, including structured data from databases, unstructured data from 
+documents, and real-time information from APIs. The collected data is then organized into a format that makes it easily
+accessible, which includes creating indexes and numerical representations known as embeddings.
+Retrieval-Augmentation Phase: This critical phase actively searches for and pulls relevant information based on user queries. 
+The system scans through the knowledge base, which can include internal databases and external sources like live APIs, 
+to identify and retrieve the most pertinent information. This ensures that the AI accesses real-time and accurate data 
+rather than merely guessing.
+Generation Phase: In this phase, the model uses the retrieved information to create structured and meaningful responses.
+It synthesizes the retrieved data with its own pre-trained knowledge to produce responses that are coherent, easy to 
+understand, and grounded in real data.
