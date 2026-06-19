@@ -279,3 +279,14 @@ rather than merely guessing.
 Generation Phase: In this phase, the model uses the retrieved information to create structured and meaningful responses.
 It synthesizes the retrieved data with its own pre-trained knowledge to produce responses that are coherent, easy to 
 understand, and grounded in real data.
+
+Embeddings - 
+Embeddings: The concept of embeddings is introduced, where text from the documents is converted into 
+numeric vectors that capture semantic meanings. This transformation allows the system to understand relationships 
+between words. For example, a query about 'climate change' could retrieve documents discussing 'global warming' due 
+to their semantic similarity.
+Embedding models are used to transform text into numerical vectors(embeddings).
+Vector Stores: The lecture discusses specialized databases known as vector stores, which are designed to manage
+and store high-dimensional vectors. These stores facilitate efficient searches based on semantic similarity rather than 
+just keyword matching, allowing for more relevant results.
+
