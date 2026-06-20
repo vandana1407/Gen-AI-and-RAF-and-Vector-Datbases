@@ -384,3 +384,22 @@ For example, if you need deep, specific domain knowledge without any bias from p
 Also, if your data or the use case is unique, this approach provides more precise and controlled outcomes.
 Your organization's data might differ significantly from the pre-trained model, with training from scratch, the model 
 learns and optimized for your unique data.
+2. Another reason could be compliance and privacy issues in sensitive industries.
+Having a model trained entirely on internal data can help to meet stringent compliance requirements,
+how?
+First of all, we will follow and define objectives.
+We should define and determine what you need to model to achieve.
+2. Data collection and preparation.
+We should create or compile a comprehensive high quality dataset.
+3. And after that, we should train this model using large scale data and powerful compute resources.
+4. And after that we should consider evaluation and tuning.
+5. Once training is complete, the model is deployed to integrate with applications for real world use cases.
+
+Drawbacks - 
+The first one is cost and resource incentive.
+Training requires substantial computational power storage and sometimes weeks to complete.
+And after that it requires data requirements.
+High quality and large scale data is essential, which can be costly and time consuming to collect for specific industries.
+Data gathering alone can take weeks or months and may also have privacy or regulatory constraints.
+And another drawback could be complexity and expertise needed.
+And another drawback could be time to deploy from data collection to final deployment. This process is lengthy compared to fine tuning or prompt engineering.
