@@ -403,3 +403,14 @@ High quality and large scale data is essential, which can be costly and time con
 Data gathering alone can take weeks or months and may also have privacy or regulatory constraints.
 And another drawback could be complexity and expertise needed.
 And another drawback could be time to deploy from data collection to final deployment. This process is lengthy compared to fine tuning or prompt engineering.
+
+
+Vector databases - 
+Vector database is a specialized database designed to store, manage, and query high dimensional vectors.
+These vectors are numerical representations that capture the semantic meaning of data.
+It can be text, image, audio, or other type of information.
+So a vector database indexes and stores vector embeddings for fast retrieval and similarity search.
+For example, we can say that a search for mobile phone in a vector database would also retrieve results
+for smartphone, even if the word smartphone was not explicitly mentioned in the query.
+So this ability to understand context and meaning unlock the powerful applications like semantic search,
+personalized recommendation, and more.
