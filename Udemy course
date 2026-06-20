@@ -373,3 +373,14 @@ of the task and the model, fine tuning can take hours or even days.
 
 In order to address these challenges, consider using cloud based platforms like Google Cloud, AWS,
 or Azure that offer pre-configured environments for fine tuning.
+And another challenges could be evolving based models and use cases.
+
+
+Last way
+which is training and LLM from scratch for optimization.
+why?
+While fine tuning is effective for many applications, training from scratch can be necessary in certain situations.
+For example, if you need deep, specific domain knowledge without any bias from pre-existing models, you can follow the train from scratch.
+Also, if your data or the use case is unique, this approach provides more precise and controlled outcomes.
+Your organization's data might differ significantly from the pre-trained model, with training from scratch, the model 
+learns and optimized for your unique data.
