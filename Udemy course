@@ -414,3 +414,11 @@ For example, we can say that a search for mobile phone in a vector database woul
 for smartphone, even if the word smartphone was not explicitly mentioned in the query.
 So this ability to understand context and meaning unlock the powerful applications like semantic search,
 personalized recommendation, and more.
+Core features
+1. High dimensional data handling - can store and queries data represented as vectors with hundreds or thousands of dimensions
+2. Fast Smilarlity Search - Approximate Nearest Neighbour(ANN)  to wuickly search the most relevant vectors, even for large datasets
+3. Saclability - supports million or billions of vectors.
+4. seamless integration with AI MOdels - 
+
+what is a Vector?
+Vector is a mathematical object has both magnitude and direction , represented as list of numbers [1.2, 3.4, -0.8]
