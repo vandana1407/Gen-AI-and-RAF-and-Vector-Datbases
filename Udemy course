@@ -504,3 +504,8 @@ The key features are payload filters, which combine vector search with structure
 we have clineta nd our api gateway , taking request to our customer support backend app -  we need an integration layer.
 Tools like semantic Kernel or Link chain bridge the gap between microservices and AI tools, enabling seamless interactions.
 Integrating Llms and vector databases as a backing services, we can create smarter applications.
+These empower microservices to provide semantic search, contextual responses and real time AI capabilities.
+we can have OLLAMA in docker containers - this can host models like LLama,mistral etc, so we use OLLAMA as docker container and install LLM
+inside docker container
+Also, we will use vector database as a AI backing services to implement RAG related use cases.
+we will ue semantic kernel  - which acts as gule frameowkr for interacting with LLMs in Ollama.
