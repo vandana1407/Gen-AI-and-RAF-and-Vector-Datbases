@@ -494,3 +494,9 @@ Also automatic scaling for large datasets and optimized for approximate nearest 
 Chroma - Chroma is an open source vector database built for fast prototyping and development, and it is ideal for developers who need a lightweight 
 and easily deployable solution.
 features - Supports embedded metadata, allowing rich contextual search and seamless integration with Python libraries and frameworks.
+
+Weaviate - schema based vector database designed for managing knowledge graphs and contextual search.
+It provides a graphical interface, making it developer friendly.
+
+Quadrant - Quadrant is a high performance open source vector database designed for real time application, and it provides handling large data sets efficiently.
+The key features are payload filters, which combine vector search with structured filters, and it also provides RESTful and gRPC APIs for flexible integration.
