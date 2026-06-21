@@ -473,3 +473,17 @@ It focuses on a subset likely to contain the nearest neighbors. Advantages are s
 3. Disk ANN - An is a specialized version of an designed to operate efficiently with vectors stored on disk rather than in in-memory.
 It uses techniques like multithreading and IO optimization in order to access vector data from disk, while maintaining the fast search speeds.
 It combines in-memory indexing for a subset of vectors with disk based storage for the bulk of the data. e.g. e comerce product search.
+
+
+Use cases for Vector DBS - 
+1. LONG TERM MEMORY FOR LLMS - Large language models like GPT four can generate powerful responses, but lack of persistent memory.
+They rely on a limited context window, making it challenging to maintain long term knowledge across
+interactions by storing conversation history or past interactions as vector embeddings.
+Vector databases enable large language models to retrieve relevant contexts dynamically.Example use cases are personal assistant and customer support.
+AI assistant can recall previous conversations and user preferences, and the system remembers customer past issues to provide continuity in services.
+2. image and video search for similarity searches - 
+3.RECOMEMNDATION SYSTEMS - 
+Vector databses examples - pinecone, chmroma, v8, qadrant, milvus, vespa.
+Pinecone is a fully managed serverless vector database optimized for fast and scalable similarity searches.
+It supports various AI and machine learning applications with its robust infrastructure, and it abstracts
+away infrastructure management and allowing developers to focus on building applications.
