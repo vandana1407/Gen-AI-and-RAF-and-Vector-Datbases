@@ -434,3 +434,14 @@ how they are created
 Vector Embedding models
 like Open AI and Ollama
 we can use embeddings API endpoint to create enbeddings
+
+
+Similarity Search
+It can find similar vectors, calculate distances between vectors by doing neighbor nearest search,
+which are semantically similar.
+Similarity search powers the applications such as voice assistance and customer support.
+Techniques used -  cosine similarity and Euclidean Distance.
+It basically measures the cosine of the angle between two vectors, and values range from -1 to 1,
+and one means that the vectors are identical.
+Zero means the vectors are unrelated, and minus one means that the vectors are diametrically opposite.
+it focuses on direction of vectors rather than thier magnitude.
