@@ -472,4 +472,4 @@ Challenges - Requires calculating distances for every vector in the dataset and 
 It focuses on a subset likely to contain the nearest neighbors. Advantages are scalable and fast.e.g. Google Maps to find nearby restaurants.
 3. Disk ANN - An is a specialized version of an designed to operate efficiently with vectors stored on disk rather than in in-memory.
 It uses techniques like multithreading and IO optimization in order to access vector data from disk, while maintaining the fast search speeds.
-It combines in-memory indexing for a subset of vectors with disk based storage for the bulk of the data.
+It combines in-memory indexing for a subset of vectors with disk based storage for the bulk of the data. e.g. e comerce product search.
