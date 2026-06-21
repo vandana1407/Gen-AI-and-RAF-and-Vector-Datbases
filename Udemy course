@@ -483,7 +483,14 @@ Vector databases enable large language models to retrieve relevant contexts dyna
 AI assistant can recall previous conversations and user preferences, and the system remembers customer past issues to provide continuity in services.
 2. image and video search for similarity searches - 
 3.RECOMEMNDATION SYSTEMS - 
+
 Vector databses examples - pinecone, chmroma, v8, qadrant, milvus, vespa.
 Pinecone is a fully managed serverless vector database optimized for fast and scalable similarity searches.
 It supports various AI and machine learning applications with its robust infrastructure, and it abstracts
 away infrastructure management and allowing developers to focus on building applications.
+And the key features of the pinecone vector database is real time indexing and querying support.
+Also automatic scaling for large datasets and optimized for approximate nearest neighbor search, use case will be search engines and recommendation systems.
+
+Chroma - Chroma is an open source vector database built for fast prototyping and development, and it is ideal for developers who need a lightweight 
+and easily deployable solution.
+features - Supports embedded metadata, allowing rich contextual search and seamless integration with Python libraries and frameworks.
