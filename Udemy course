@@ -445,3 +445,20 @@ It basically measures the cosine of the angle between two vectors, and values ra
 and one means that the vectors are identical.
 Zero means the vectors are unrelated, and minus one means that the vectors are diametrically opposite.
 it focuses on direction of vectors rather than thier magnitude.
+Eucledian distance - It basically measures the straight line distance between two points in space.
+The shorter the distance, the more similar the vectors.
+It is because simple and intuitive and works well for numerical and image data.
+However, less effective for high dimensional text embeddings due to the curse of dimensionality.
+As a real world example, we can give finding the closest restaurant based on the GPS coordinates,
+
+how vector databases work ?
+Vector databases are specialized systems designed to store and query high dimensional vector embeddings,
+and vector databases operate through three main processes.These are the vector creation, vector indexing, and vector search.
+Embeddings and associated metadata are stored in the database. That means we store metadata information between vectors.
+why we store metadata alongside - because it provides context and provide more meaningful results.
+Searching thru millions of high dimensinal vextors is computationaly expensive, so vector indexing needed.
+Approximate nearest neighbor (ANN) algorithms are used for efficiency, which is a technique to.
+Quickly identify similar vectors without searching the entire data set
+Common indexing algorithms used:
+HNSW - Hieraracial Navigable Small World - used for graph base search
+FAISS (Facebook AI Similarity Search) for dense vectors.
