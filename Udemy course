@@ -500,3 +500,7 @@ It provides a graphical interface, making it developer friendly.
 
 Quadrant - Quadrant is a high performance open source vector database designed for real time application, and it provides handling large data sets efficiently.
 The key features are payload filters, which combine vector search with structured filters, and it also provides RESTful and gRPC APIs for flexible integration.
+
+we have clineta nd our api gateway , taking request to our customer support backend app -  we need an integration layer.
+Tools like semantic Kernel or Link chain bridge the gap between microservices and AI tools, enabling seamless interactions.
+Integrating Llms and vector databases as a backing services, we can create smarter applications.
