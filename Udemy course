@@ -513,3 +513,6 @@ we will ue semantic kernel  - which acts as gule frameowkr for interacting with 
 2 workflows supported - 
 1. The first one is offline workflow, which is the data ingestion, data preparation, and ingestion into
 the vector database in order to enable retrieval augmented generation in this offline workflow.
+2. And the second workflow is runtime workflow, which is the query and response workflow.
+Real time query processing to deliver context aware responses to customer support agents.
+instead of semantic kernel as glue framework we can use java spring - long chain or Lama index for Python.
