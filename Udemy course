@@ -462,3 +462,8 @@ Quickly identify similar vectors without searching the entire data set
 Common indexing algorithms used:
 HNSW - Hieraracial Navigable Small World - used for graph base search
 FAISS (Facebook AI Similarity Search) for dense vectors.
+
+Vector Search Algorithms - 
+1. K NN - K nearest Neighbours - finds the k closest vectors to query based on a similarity matrix example, cosine similarity or Euclidean distance.
+2. ANN - Approximate Nearest Neighbours
+3. Disk ANN - 
