@@ -509,3 +509,7 @@ we can have OLLAMA in docker containers - this can host models like LLama,mistra
 inside docker container
 Also, we will use vector database as a AI backing services to implement RAG related use cases.
 we will ue semantic kernel  - which acts as gule frameowkr for interacting with LLMs in Ollama.
+
+2 workflows supported - 
+1. The first one is offline workflow, which is the data ingestion, data preparation, and ingestion into
+the vector database in order to enable retrieval augmented generation in this offline workflow.
